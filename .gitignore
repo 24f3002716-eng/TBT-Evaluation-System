@@ -1,0 +1,63 @@
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Virtual environments
+venv/
+.venv/
+
+# Secrets
+.env
+.env.*
+
+# Generated files
+outputs/*
+reports/*
+uploads/*
+data/uploads/*
+
+# Media files
+*.mp4
+*.mp3
+*.wav
+*.m4a
+*.mov
+*.webm
+
+# Large model files
+*.safetensors
+*.onnx
+*.pth
+*.pt
+
+# Generated data
+data/frames/
+data/reports/
+data/uploads/
+
+# Generated output
+outputs/
+reports/
+uploads/
+
+# Python environments and cache
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+
+# Model weights
+*.safetensors
+*.onnx
+*.pth
+*.pt
+
+# Secrets
+.env
+.env.*
+
+# Mac and VS Code
+.DS_Store
+.vscode/
